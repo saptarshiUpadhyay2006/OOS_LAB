@@ -1,2 +1,108 @@
-ASS 1:-
-p1--->p2--->p3--->Bank(p4)--->p5---> p6-->p7-->p8-->p9-->p10-->p11-->p12-->p13-->p14-->p15-->p16-->p17
+ASSIGNMENT 1 - OOP PROGRESSION OVERVIEW
+
+p1 -> p2 -> p3 -> Bank(p4) -> p5 -> p6 -> p7 -> p8 -> p9 -> p10 -> p11 -> p12 -> p13 -> p14 -> p15 -> p16 -> p17
+
+
+--------------------------------------------------
+PHASE 1: FOUNDATION (CLASSES, STATE, DATA)
+Programs: 1, 2, 3, 15
+
+Focus:
+Modeling single objects and tracking their internal state.
+
+Scenarios:
+- Room volume calculation
+- Student grade tracking
+- Stack implementation
+- Toll booth system
+
+Core Concepts:
+- Classes & Objects: Creating blueprints and objects using new
+- State Management: Using variables to maintain values (e.g., stack top, total cash)
+- Constructors: Initializing objects at creation
+- Constants: Using static final to avoid hardcoding values
+
+
+--------------------------------------------------
+PHASE 2: OBJECT RELATIONSHIPS (HAS-A)
+Programs: 4, 5, 6, 12
+
+Focus:
+One object managing multiple child objects.
+
+Scenarios:
+- Bank managing accounts
+- Department managing employees
+- Student grading system
+
+Core Concepts:
+- Encapsulation: Private data with controlled access methods
+- Composition/Aggregation: Classes containing arrays or collections of objects
+- Searching & Deletion: Finding and removing records efficiently
+
+
+--------------------------------------------------
+PHASE 3: INHERITANCE (IS-A)
+Programs: 7, 8, 9, 13
+
+Focus:
+Reducing redundancy using inheritance.
+
+Scenarios:
+- Library system (Book, Journal)
+- Bank accounts (Savings, Current)
+- University roles
+- Vehicles
+
+Core Concepts:
+- Inheritance: Using extends to create hierarchy
+- Constructor Chaining: Using super()
+- Method Overriding: Customizing parent class methods
+
+
+--------------------------------------------------
+PHASE 4: INTERFACES & POLYMORPHISM
+Programs: 14, 16
+
+Focus:
+Defining behavior contracts and flexibility.
+
+Scenarios:
+- Shape operations (draw, move)
+- Tomato classification (Fruit, Vegetable)
+
+Core Concepts:
+- Interfaces: Using implements to define required methods
+- Multiple Inheritance (via interfaces)
+- Polymorphism: One interface, multiple implementations
+
+
+--------------------------------------------------
+PHASE 5: REAL-WORLD LOGIC & INTERACTION
+Programs: 10, 11, 17
+
+Focus:
+Handling real-world logic and user interaction.
+
+Scenarios:
+- Bookshop inventory system
+- Date calculator
+
+Core Concepts:
+- Constructor Overloading: Using this() for default values
+- Boundary Logic: Leap year and date handling
+- User Input: Using Scanner and safe string comparison
+
+
+--------------------------------------------------
+FINAL SUMMARY
+
+1. Basics -> Objects and state
+2. Relationships -> Objects managing objects
+3. Inheritance -> Code reuse
+4. Abstraction -> Interfaces and polymorphism
+5. Application -> Real-world problem solving
+
+
+
+
